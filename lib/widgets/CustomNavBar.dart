@@ -40,7 +40,9 @@ class CustomNavBar extends StatelessWidget {
             ),
           ),
           InkWell(
-            onTap: () {},
+            onTap: () {
+              Navigator.pushNamed(context, 'favoritePage');
+            },
             child: Icon(
               Icons.favorite_border,
               size: 35,

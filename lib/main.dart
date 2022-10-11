@@ -2,6 +2,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:moviedb/pages/CategoryPage.dart';
+import 'package:moviedb/pages/FavoritePage.dart';
 import 'package:moviedb/pages/HomePage.dart';
 import 'package:moviedb/pages/MoviePage.dart';
 
@@ -34,6 +35,7 @@ class _MyAppState extends State<MyApp> {
         "/": (context) => HomePage(),
         "categoryPage": (context) => CategoryPage(),
         "moviePage": (context) => MoviePage(),
+        "favoritePage": (context) => FavoritePage()
       },
     );
   }
