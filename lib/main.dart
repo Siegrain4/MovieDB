@@ -5,6 +5,7 @@ import 'package:moviedb/pages/CategoryPage.dart';
 import 'package:moviedb/pages/FavoritePage.dart';
 import 'package:moviedb/pages/HomePage.dart';
 import 'package:moviedb/pages/MoviePage.dart';
+import 'package:moviedb/pages/PersonPage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -35,7 +36,8 @@ class _MyAppState extends State<MyApp> {
         "/": (context) => HomePage(),
         "categoryPage": (context) => CategoryPage(),
         "moviePage": (context) => MoviePage(),
-        "favoritePage": (context) => FavoritePage()
+        "favoritePage": (context) => FavoritePage(),
+        "personPage": (context) => PersonPage(),
       },
     );
   }
